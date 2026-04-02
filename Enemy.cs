@@ -10,6 +10,11 @@ public class EnemyMovement : MonoBehaviour
     {
         currentVelocity *= slowFactor;
     }
+    public void TakeDamage(float damageAmount)
+    {
+        // Xử lý logic giảm máu của kẻ địch ở đây
+        // Ví dụ: health -= damageAmount;
+    }
 
     void Update()
     {
