@@ -2,7 +2,7 @@
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float speed = 5f;
+    public float movementSpeed = 5f;
 
     void Update()
     {
